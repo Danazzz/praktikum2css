@@ -69,3 +69,16 @@ img{
  h2{
     font-size: 24pt;
  }
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    color: white;
+}
+.right{
+    text-align: right;
+}
