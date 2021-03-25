@@ -4,11 +4,11 @@
     margin: 0;
 }
 .border-sample{
-    border:thin solid black !important;
+    border: thin solid rgb(0, 0, 0) !important;
 }
 body{
-    background-color: rgb(238, 69, 103);
-    font-family: 'Lucida Handwriting', Cursive;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Kiwi Maru';
     color: #2b09e7;
     font-size: 18pt;
 }
@@ -16,10 +16,13 @@ header{
     color: #6495ED;
     font-size: 24pt;
     padding: 20px;
+    background-color: darkblue;
 }
 footer{
     color: rgb(100, 149, 237);
     font-size: 24pt;
+    padding: 20px;
+    background-color: darkblue;
 }
 .container{
     padding: 20px;
@@ -38,9 +41,31 @@ section{
     margin-bottom: 20px;
     padding: 15px;
     font-size: 16px;
-    width: 200px;
+    font-family: 'Lucida Handwriting', Cursive;
+    /* width: 200px; */
 }
 .section-container{
     display: flex;
     justify-content: space-evenly;
 }
+img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content2{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .content3{
+     padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ h2{
+    font-size: 24pt;
+ }
